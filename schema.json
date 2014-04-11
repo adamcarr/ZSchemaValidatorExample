@@ -31,7 +31,8 @@
         "Tags": {
             "type": "array",
             "items": {
-                "type": "string"
+                "type": "string",
+                "enum": ["csharp", "nodejs", "typescript"]
             }
         }
     },
